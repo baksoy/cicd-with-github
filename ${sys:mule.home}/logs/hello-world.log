@@ -1,0 +1,552 @@
+2025-03-03 01:09:36,909 [main] INFO  org.mule.munit.remote.RemoteRunner - Run Started
+2025-03-03 01:09:36,933 [main] INFO  org.mule.munit.remote.notifiers.SocketNotifier - Connected to localhost on port 63793
+2025-03-03 01:09:36,941 [main] INFO  org.mule.munit.remote.RemoteRunner - Mule container is starting, it could take a few minutes
+2025-03-03 01:09:39,610 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Starting coverage server
+2025-03-03 01:09:39,612 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Coverage Server starting...
+2025-03-03 01:09:39,612 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Waiting for coverage client connection in port [50406]...
+2025-03-03 01:09:44,515 [Embedded] INFO  org.mule.runtime.core.internal.logging - 
+**********************************************************************
+*                                                                    *
+*                         (((((((((((((((((((                        *
+*                     (((((                 ((((#                    *
+*                  &(((                        *(((                  *
+*                &(((                             (((                *
+*               (((     (((%               (((#     (((              *
+*              ((     (((((((             (((((((    (((             *
+*             ((     (((((((((           (((((((((     ((            *
+*            ((    #(((((((((((        #(((((((((((    (((           *
+*           #((    ((((((((((((((     ((((((((((((((    ((           *
+*           ((    ((((((  /(((((((   (((((((  /((((((    ((          *
+*           ((    ((((((    (((((((&(((((((    ((((((    ((          *
+*           ((    (((((      ((((((((((((*     ((((((    ((          *
+*           ((    ((((((      *(((((((((       ((((((    ((          *
+*           ((    ((((((        (((((((        ((((((   (((          *
+*            ((    ((((((                     ((((((    ((           *
+*            ((#    ((((((#                 (((((((    ((            *
+*             ((#    ((((((((             ((((((((    (((            *
+*              (((    (((((((              (((((     ((.             *
+*                ((      (((               (((     #((               *
+*                 /((                            (((                 *
+*                    (((                      &(((                   *
+*                      *((((&             &((((                      *
+*                           ((((((((((((((/                          *
+*                                                                    *
+*    ___  ___      _        ______            _   _                  *
+*    |  \/  |     | |       | ___ \          | | (_)                 *
+*    | .  . |_   _| | ___   | |_/ /   _ _ __ | |_ _ _ __ ___   ___   *
+*    | |\/| | | | | |/ _ \  |    / | | | '_ \| __| | '_ ` _ \ / _ \  *
+*    | |  | | |_| | |  __/  | |\ \ |_| | | | | |_| | | | | | |  __/  *
+*    \_|  |_/\__,_|_|\___|  \_| \_\__,_|_| |_|\__|_|_| |_| |_|\___|  *
+*                                                                    *
+*                                                                    *
+* Mule Runtime and Integration Platform                              *
+* Version: 4.9.1 Build: 0aaa8d2e                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to                                         *
+* https://www.mulesoft.com/platform/soa/mule-esb-enterprise          *
+*                                                                    *
+* Server started: 3/3/25, 1:09 AM                                    *
+* JDK: 17.0.12 (mixed mode)                                          *
+* JDK properties:                                                    *
+*  - java.vendor = Eclipse Adoptium                                  *
+*  - java.vm.name = OpenJDK 64-Bit Server VM                         *
+*  - java.home = /Users/baksoy/.sdkman/candidates/java/17.0.12-tem   *
+* OS: Mac OS X (15.3.1, x86_64)                                      *
+* Host: baksoy-ltmrke8.internal.salesforce.com (192.168.1.160)       *
+* Mule services:                                                     *
+*  - mule-service-soap-1.9.0                                         *
+*  - api-gateway-events-collector-service-1.5.1                      *
+*  - api-gateway-contract-service-1.5.1                              *
+*  - mule-service-weave-ee-2.9.0                                     *
+*  - mule-service-http-ee-1.12.1                                     *
+*  - mule-service-oauth-ee-1.6.1                                     *
+*  - mule-service-scheduler-1.9.1                                    *
+* Mule server plugins:                                               *
+*  - munit-coverage-plugin-3.4.0-mule-server-plugin.jar              *
+* Mule system properties:                                            *
+*  - mule.testingMode =                                              *
+* - mule.home =                                                      *
+* /private/var/folders/hm/kvx0czjn51j7m6r9pw49qjr40000gp/T/munit-tem *
+* p-dir/munitworkingdir17074609197477762766/container                *
+*  - mule.mode.embedded = true                                       *
+**********************************************************************
+2025-03-03 01:09:45,896 [main] INFO  org.mule.munit.remote.container.ContainerSuiteRunDispatcher - Suite will run with MMV 4.4.0
+2025-03-03 01:09:45,966 [Embedded] INFO  org.mule.maven.client.internal.MuleMavenClient - About to fetch required dependencies for artifact: org.mule.examples:hello-world:pom:2.1.4. This may take a while...
+2025-03-03 01:09:48,864 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Shutting down coverage server
+2025-03-03 01:09:48,865 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Calculating application coverage
+2025-03-03 01:09:48,868 [main] INFO  org.mule.munit.remote.RemoteRunner - Done
+2025-03-03 01:11:11,549 [main] INFO  org.mule.munit.remote.RemoteRunner - Run Started
+2025-03-03 01:11:11,571 [main] INFO  org.mule.munit.remote.notifiers.SocketNotifier - Connected to localhost on port 63925
+2025-03-03 01:11:11,575 [main] INFO  org.mule.munit.remote.RemoteRunner - Mule container is starting, it could take a few minutes
+2025-03-03 01:11:13,886 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Starting coverage server
+2025-03-03 01:11:13,887 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Coverage Server starting...
+2025-03-03 01:11:13,888 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Waiting for coverage client connection in port [50323]...
+2025-03-03 01:11:17,851 [Embedded] INFO  org.mule.runtime.core.internal.logging - 
+**********************************************************************
+*                                                                    *
+*                         (((((((((((((((((((                        *
+*                     (((((                 ((((#                    *
+*                  &(((                        *(((                  *
+*                &(((                             (((                *
+*               (((     (((%               (((#     (((              *
+*              ((     (((((((             (((((((    (((             *
+*             ((     (((((((((           (((((((((     ((            *
+*            ((    #(((((((((((        #(((((((((((    (((           *
+*           #((    ((((((((((((((     ((((((((((((((    ((           *
+*           ((    ((((((  /(((((((   (((((((  /((((((    ((          *
+*           ((    ((((((    (((((((&(((((((    ((((((    ((          *
+*           ((    (((((      ((((((((((((*     ((((((    ((          *
+*           ((    ((((((      *(((((((((       ((((((    ((          *
+*           ((    ((((((        (((((((        ((((((   (((          *
+*            ((    ((((((                     ((((((    ((           *
+*            ((#    ((((((#                 (((((((    ((            *
+*             ((#    ((((((((             ((((((((    (((            *
+*              (((    (((((((              (((((     ((.             *
+*                ((      (((               (((     #((               *
+*                 /((                            (((                 *
+*                    (((                      &(((                   *
+*                      *((((&             &((((                      *
+*                           ((((((((((((((/                          *
+*                                                                    *
+*    ___  ___      _        ______            _   _                  *
+*    |  \/  |     | |       | ___ \          | | (_)                 *
+*    | .  . |_   _| | ___   | |_/ /   _ _ __ | |_ _ _ __ ___   ___   *
+*    | |\/| | | | | |/ _ \  |    / | | | '_ \| __| | '_ ` _ \ / _ \  *
+*    | |  | | |_| | |  __/  | |\ \ |_| | | | | |_| | | | | | |  __/  *
+*    \_|  |_/\__,_|_|\___|  \_| \_\__,_|_| |_|\__|_|_| |_| |_|\___|  *
+*                                                                    *
+*                                                                    *
+* Mule Runtime and Integration Platform                              *
+* Version: 4.9.1 Build: 0aaa8d2e                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to                                         *
+* https://www.mulesoft.com/platform/soa/mule-esb-enterprise          *
+*                                                                    *
+* Server started: 3/3/25, 1:11 AM                                    *
+* JDK: 17.0.12 (mixed mode)                                          *
+* JDK properties:                                                    *
+*  - java.vendor = Eclipse Adoptium                                  *
+*  - java.vm.name = OpenJDK 64-Bit Server VM                         *
+*  - java.home = /Users/baksoy/.sdkman/candidates/java/17.0.12-tem   *
+* OS: Mac OS X (15.3.1, x86_64)                                      *
+* Host: baksoy-ltmrke8.internal.salesforce.com (192.168.1.160)       *
+* Mule services:                                                     *
+*  - mule-service-soap-1.9.0                                         *
+*  - api-gateway-events-collector-service-1.5.1                      *
+*  - api-gateway-contract-service-1.5.1                              *
+*  - mule-service-weave-ee-2.9.0                                     *
+*  - mule-service-http-ee-1.12.1                                     *
+*  - mule-service-oauth-ee-1.6.1                                     *
+*  - mule-service-scheduler-1.9.1                                    *
+* Mule server plugins:                                               *
+*  - munit-coverage-plugin-3.4.0-mule-server-plugin.jar              *
+* Mule system properties:                                            *
+*  - mule.testingMode =                                              *
+* - mule.home =                                                      *
+* /private/var/folders/hm/kvx0czjn51j7m6r9pw49qjr40000gp/T/munit-tem *
+* p-dir/munitworkingdir14536856478159649692/container                *
+*  - mule.mode.embedded = true                                       *
+**********************************************************************
+2025-03-03 01:11:19,068 [main] INFO  org.mule.munit.remote.container.ContainerSuiteRunDispatcher - Suite will run with MMV 4.4.0
+2025-03-03 01:11:19,116 [Embedded] INFO  org.mule.maven.client.internal.MuleMavenClient - About to fetch required dependencies for artifact: org.mule.examples:hello-world:pom:2.1.4. This may take a while...
+2025-03-03 01:11:22,628 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Shutting down coverage server
+2025-03-03 01:11:22,630 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Calculating application coverage
+2025-03-03 01:11:22,632 [main] INFO  org.mule.munit.remote.RemoteRunner - Done
+2025-03-03 01:12:03,667 [main] INFO  org.mule.munit.remote.RemoteRunner - Run Started
+2025-03-03 01:12:03,688 [main] INFO  org.mule.munit.remote.notifiers.SocketNotifier - Connected to localhost on port 63989
+2025-03-03 01:12:03,693 [main] INFO  org.mule.munit.remote.RemoteRunner - Mule container is starting, it could take a few minutes
+2025-03-03 01:12:05,684 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Starting coverage server
+2025-03-03 01:12:05,686 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Coverage Server starting...
+2025-03-03 01:12:05,686 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Waiting for coverage client connection in port [50273]...
+2025-03-03 01:12:09,006 [Embedded] INFO  org.mule.runtime.core.internal.logging - 
+**********************************************************************
+*                                                                    *
+*                         (((((((((((((((((((                        *
+*                     (((((                 ((((#                    *
+*                  &(((                        *(((                  *
+*                &(((                             (((                *
+*               (((     (((%               (((#     (((              *
+*              ((     (((((((             (((((((    (((             *
+*             ((     (((((((((           (((((((((     ((            *
+*            ((    #(((((((((((        #(((((((((((    (((           *
+*           #((    ((((((((((((((     ((((((((((((((    ((           *
+*           ((    ((((((  /(((((((   (((((((  /((((((    ((          *
+*           ((    ((((((    (((((((&(((((((    ((((((    ((          *
+*           ((    (((((      ((((((((((((*     ((((((    ((          *
+*           ((    ((((((      *(((((((((       ((((((    ((          *
+*           ((    ((((((        (((((((        ((((((   (((          *
+*            ((    ((((((                     ((((((    ((           *
+*            ((#    ((((((#                 (((((((    ((            *
+*             ((#    ((((((((             ((((((((    (((            *
+*              (((    (((((((              (((((     ((.             *
+*                ((      (((               (((     #((               *
+*                 /((                            (((                 *
+*                    (((                      &(((                   *
+*                      *((((&             &((((                      *
+*                           ((((((((((((((/                          *
+*                                                                    *
+*    ___  ___      _        ______            _   _                  *
+*    |  \/  |     | |       | ___ \          | | (_)                 *
+*    | .  . |_   _| | ___   | |_/ /   _ _ __ | |_ _ _ __ ___   ___   *
+*    | |\/| | | | | |/ _ \  |    / | | | '_ \| __| | '_ ` _ \ / _ \  *
+*    | |  | | |_| | |  __/  | |\ \ |_| | | | | |_| | | | | | |  __/  *
+*    \_|  |_/\__,_|_|\___|  \_| \_\__,_|_| |_|\__|_|_| |_| |_|\___|  *
+*                                                                    *
+*                                                                    *
+* Mule Runtime and Integration Platform                              *
+* Version: 4.9.1 Build: 0aaa8d2e                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to                                         *
+* https://www.mulesoft.com/platform/soa/mule-esb-enterprise          *
+*                                                                    *
+* Server started: 3/3/25, 1:12 AM                                    *
+* JDK: 17.0.12 (mixed mode)                                          *
+* JDK properties:                                                    *
+*  - java.vendor = Eclipse Adoptium                                  *
+*  - java.vm.name = OpenJDK 64-Bit Server VM                         *
+*  - java.home = /Users/baksoy/.sdkman/candidates/java/17.0.12-tem   *
+* OS: Mac OS X (15.3.1, x86_64)                                      *
+* Host: baksoy-ltmrke8.internal.salesforce.com (192.168.1.160)       *
+* Mule services:                                                     *
+*  - mule-service-soap-1.9.0                                         *
+*  - api-gateway-events-collector-service-1.5.1                      *
+*  - api-gateway-contract-service-1.5.1                              *
+*  - mule-service-weave-ee-2.9.0                                     *
+*  - mule-service-http-ee-1.12.1                                     *
+*  - mule-service-oauth-ee-1.6.1                                     *
+*  - mule-service-scheduler-1.9.1                                    *
+* Mule server plugins:                                               *
+*  - munit-coverage-plugin-3.4.0-mule-server-plugin.jar              *
+* Mule system properties:                                            *
+*  - mule.testingMode =                                              *
+* - mule.home =                                                      *
+* /private/var/folders/hm/kvx0czjn51j7m6r9pw49qjr40000gp/T/munit-tem *
+* p-dir/munitworkingdir2829473709664078921/container                 *
+*  - mule.mode.embedded = true                                       *
+**********************************************************************
+2025-03-03 01:12:10,227 [main] INFO  org.mule.munit.remote.container.ContainerSuiteRunDispatcher - Suite will run with MMV 4.4.0
+2025-03-03 01:12:10,271 [Embedded] INFO  org.mule.maven.client.internal.MuleMavenClient - About to fetch required dependencies for artifact: org.mule.examples:hello-world:pom:2.1.4. This may take a while...
+2025-03-03 01:12:13,729 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Shutting down coverage server
+2025-03-03 01:12:13,730 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Calculating application coverage
+2025-03-03 01:12:13,733 [main] INFO  org.mule.munit.remote.RemoteRunner - Done
+2025-03-03 01:12:26,340 [main] INFO  org.mule.munit.remote.RemoteRunner - Run Started
+2025-03-03 01:12:26,364 [main] INFO  org.mule.munit.remote.notifiers.SocketNotifier - Connected to localhost on port 64026
+2025-03-03 01:12:26,369 [main] INFO  org.mule.munit.remote.RemoteRunner - Mule container is starting, it could take a few minutes
+2025-03-03 01:12:28,526 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Starting coverage server
+2025-03-03 01:12:28,528 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Coverage Server starting...
+2025-03-03 01:12:28,528 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Waiting for coverage client connection in port [50123]...
+2025-03-03 01:12:32,195 [Embedded] INFO  org.mule.runtime.core.internal.logging - 
+**********************************************************************
+*                                                                    *
+*                         (((((((((((((((((((                        *
+*                     (((((                 ((((#                    *
+*                  &(((                        *(((                  *
+*                &(((                             (((                *
+*               (((     (((%               (((#     (((              *
+*              ((     (((((((             (((((((    (((             *
+*             ((     (((((((((           (((((((((     ((            *
+*            ((    #(((((((((((        #(((((((((((    (((           *
+*           #((    ((((((((((((((     ((((((((((((((    ((           *
+*           ((    ((((((  /(((((((   (((((((  /((((((    ((          *
+*           ((    ((((((    (((((((&(((((((    ((((((    ((          *
+*           ((    (((((      ((((((((((((*     ((((((    ((          *
+*           ((    ((((((      *(((((((((       ((((((    ((          *
+*           ((    ((((((        (((((((        ((((((   (((          *
+*            ((    ((((((                     ((((((    ((           *
+*            ((#    ((((((#                 (((((((    ((            *
+*             ((#    ((((((((             ((((((((    (((            *
+*              (((    (((((((              (((((     ((.             *
+*                ((      (((               (((     #((               *
+*                 /((                            (((                 *
+*                    (((                      &(((                   *
+*                      *((((&             &((((                      *
+*                           ((((((((((((((/                          *
+*                                                                    *
+*    ___  ___      _        ______            _   _                  *
+*    |  \/  |     | |       | ___ \          | | (_)                 *
+*    | .  . |_   _| | ___   | |_/ /   _ _ __ | |_ _ _ __ ___   ___   *
+*    | |\/| | | | | |/ _ \  |    / | | | '_ \| __| | '_ ` _ \ / _ \  *
+*    | |  | | |_| | |  __/  | |\ \ |_| | | | | |_| | | | | | |  __/  *
+*    \_|  |_/\__,_|_|\___|  \_| \_\__,_|_| |_|\__|_|_| |_| |_|\___|  *
+*                                                                    *
+*                                                                    *
+* Mule Runtime and Integration Platform                              *
+* Version: 4.9.1 Build: 0aaa8d2e                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to                                         *
+* https://www.mulesoft.com/platform/soa/mule-esb-enterprise          *
+*                                                                    *
+* Server started: 3/3/25, 1:12 AM                                    *
+* JDK: 17.0.12 (mixed mode)                                          *
+* JDK properties:                                                    *
+*  - java.vendor = Eclipse Adoptium                                  *
+*  - java.vm.name = OpenJDK 64-Bit Server VM                         *
+*  - java.home = /Users/baksoy/.sdkman/candidates/java/17.0.12-tem   *
+* OS: Mac OS X (15.3.1, x86_64)                                      *
+* Host: baksoy-ltmrke8.internal.salesforce.com (192.168.1.160)       *
+* Mule services:                                                     *
+*  - mule-service-soap-1.9.0                                         *
+*  - api-gateway-events-collector-service-1.5.1                      *
+*  - api-gateway-contract-service-1.5.1                              *
+*  - mule-service-weave-ee-2.9.0                                     *
+*  - mule-service-http-ee-1.12.1                                     *
+*  - mule-service-oauth-ee-1.6.1                                     *
+*  - mule-service-scheduler-1.9.1                                    *
+* Mule server plugins:                                               *
+*  - munit-coverage-plugin-3.4.0-mule-server-plugin.jar              *
+*  - mule-debugger-5.1.1-mule-server-plugin.jar                      *
+* Mule system properties:                                            *
+*  - mule.debug.enable = true                                        *
+*  - mule.testingMode =                                              *
+*  - mule.debug.port = 6666                                          *
+*  - mule.debug.suspend = false                                      *
+* - mule.home =                                                      *
+* /private/var/folders/hm/kvx0czjn51j7m6r9pw49qjr40000gp/T/munit-tem *
+* p-dir/munitworkingdir4217645728068532598/container                 *
+*  - mule.mode.embedded = true                                       *
+*  - mule.timeout.disable = false                                    *
+**********************************************************************
+2025-03-03 01:12:33,482 [main] INFO  org.mule.munit.remote.container.ContainerSuiteRunDispatcher - Suite will run with MMV 4.4.0
+2025-03-03 01:12:33,538 [Embedded] INFO  org.mule.maven.client.internal.MuleMavenClient - About to fetch required dependencies for artifact: org.mule.examples:hello-world:pom:2.1.4. This may take a while...
+2025-03-03 01:12:36,462 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Shutting down coverage server
+2025-03-03 01:12:36,463 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Calculating application coverage
+2025-03-03 01:12:36,466 [main] INFO  org.mule.munit.remote.RemoteRunner - Done
+2025-03-03 01:12:46,307 [main] INFO  org.mule.munit.remote.RemoteRunner - Run Started
+2025-03-03 01:12:46,331 [main] INFO  org.mule.munit.remote.notifiers.SocketNotifier - Connected to localhost on port 64053
+2025-03-03 01:12:46,336 [main] INFO  org.mule.munit.remote.RemoteRunner - Mule container is starting, it could take a few minutes
+2025-03-03 01:12:48,282 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Starting coverage server
+2025-03-03 01:12:48,284 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Coverage Server starting...
+2025-03-03 01:12:48,285 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Waiting for coverage client connection in port [50471]...
+2025-03-03 01:12:51,748 [Embedded] INFO  org.mule.runtime.core.internal.logging - 
+**********************************************************************
+*                                                                    *
+*                         (((((((((((((((((((                        *
+*                     (((((                 ((((#                    *
+*                  &(((                        *(((                  *
+*                &(((                             (((                *
+*               (((     (((%               (((#     (((              *
+*              ((     (((((((             (((((((    (((             *
+*             ((     (((((((((           (((((((((     ((            *
+*            ((    #(((((((((((        #(((((((((((    (((           *
+*           #((    ((((((((((((((     ((((((((((((((    ((           *
+*           ((    ((((((  /(((((((   (((((((  /((((((    ((          *
+*           ((    ((((((    (((((((&(((((((    ((((((    ((          *
+*           ((    (((((      ((((((((((((*     ((((((    ((          *
+*           ((    ((((((      *(((((((((       ((((((    ((          *
+*           ((    ((((((        (((((((        ((((((   (((          *
+*            ((    ((((((                     ((((((    ((           *
+*            ((#    ((((((#                 (((((((    ((            *
+*             ((#    ((((((((             ((((((((    (((            *
+*              (((    (((((((              (((((     ((.             *
+*                ((      (((               (((     #((               *
+*                 /((                            (((                 *
+*                    (((                      &(((                   *
+*                      *((((&             &((((                      *
+*                           ((((((((((((((/                          *
+*                                                                    *
+*    ___  ___      _        ______            _   _                  *
+*    |  \/  |     | |       | ___ \          | | (_)                 *
+*    | .  . |_   _| | ___   | |_/ /   _ _ __ | |_ _ _ __ ___   ___   *
+*    | |\/| | | | | |/ _ \  |    / | | | '_ \| __| | '_ ` _ \ / _ \  *
+*    | |  | | |_| | |  __/  | |\ \ |_| | | | | |_| | | | | | |  __/  *
+*    \_|  |_/\__,_|_|\___|  \_| \_\__,_|_| |_|\__|_|_| |_| |_|\___|  *
+*                                                                    *
+*                                                                    *
+* Mule Runtime and Integration Platform                              *
+* Version: 4.9.1 Build: 0aaa8d2e                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to                                         *
+* https://www.mulesoft.com/platform/soa/mule-esb-enterprise          *
+*                                                                    *
+* Server started: 3/3/25, 1:12 AM                                    *
+* JDK: 17.0.12 (mixed mode)                                          *
+* JDK properties:                                                    *
+*  - java.vendor = Eclipse Adoptium                                  *
+*  - java.vm.name = OpenJDK 64-Bit Server VM                         *
+*  - java.home = /Users/baksoy/.sdkman/candidates/java/17.0.12-tem   *
+* OS: Mac OS X (15.3.1, x86_64)                                      *
+* Host: baksoy-ltmrke8.internal.salesforce.com (192.168.1.160)       *
+* Mule services:                                                     *
+*  - mule-service-soap-1.9.0                                         *
+*  - api-gateway-events-collector-service-1.5.1                      *
+*  - api-gateway-contract-service-1.5.1                              *
+*  - mule-service-weave-ee-2.9.0                                     *
+*  - mule-service-http-ee-1.12.1                                     *
+*  - mule-service-oauth-ee-1.6.1                                     *
+*  - mule-service-scheduler-1.9.1                                    *
+* Mule server plugins:                                               *
+*  - munit-coverage-plugin-3.4.0-mule-server-plugin.jar              *
+* Mule system properties:                                            *
+*  - mule.testingMode =                                              *
+* - mule.home =                                                      *
+* /private/var/folders/hm/kvx0czjn51j7m6r9pw49qjr40000gp/T/munit-tem *
+* p-dir/munitworkingdir10328767452065329180/container                *
+*  - mule.mode.embedded = true                                       *
+**********************************************************************
+2025-03-03 01:12:53,111 [main] INFO  org.mule.munit.remote.container.ContainerSuiteRunDispatcher - Suite will run with MMV 4.4.0
+2025-03-03 01:12:53,171 [Embedded] INFO  org.mule.maven.client.internal.MuleMavenClient - About to fetch required dependencies for artifact: org.mule.examples:hello-world:pom:2.1.4. This may take a while...
+2025-03-03 01:12:56,087 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Shutting down coverage server
+2025-03-03 01:12:56,089 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Calculating application coverage
+2025-03-03 01:12:56,093 [main] INFO  org.mule.munit.remote.RemoteRunner - Done
+2025-03-03 01:39:25,982 [main] INFO  org.mule.munit.remote.RemoteRunner - Run Started
+2025-03-03 01:39:26,004 [main] INFO  org.mule.munit.remote.notifiers.SocketNotifier - Connected to localhost on port 50186
+2025-03-03 01:39:26,011 [main] INFO  org.mule.munit.remote.RemoteRunner - Mule container is starting, it could take a few minutes
+2025-03-03 01:39:29,045 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Starting coverage server
+2025-03-03 01:39:29,048 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Coverage Server starting...
+2025-03-03 01:39:29,048 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Waiting for coverage client connection in port [50027]...
+2025-03-03 01:39:32,835 [Embedded] INFO  org.mule.runtime.core.internal.logging - 
+**********************************************************************
+*                                                                    *
+*                         (((((((((((((((((((                        *
+*                     (((((                 ((((#                    *
+*                  &(((                        *(((                  *
+*                &(((                             (((                *
+*               (((     (((%               (((#     (((              *
+*              ((     (((((((             (((((((    (((             *
+*             ((     (((((((((           (((((((((     ((            *
+*            ((    #(((((((((((        #(((((((((((    (((           *
+*           #((    ((((((((((((((     ((((((((((((((    ((           *
+*           ((    ((((((  /(((((((   (((((((  /((((((    ((          *
+*           ((    ((((((    (((((((&(((((((    ((((((    ((          *
+*           ((    (((((      ((((((((((((*     ((((((    ((          *
+*           ((    ((((((      *(((((((((       ((((((    ((          *
+*           ((    ((((((        (((((((        ((((((   (((          *
+*            ((    ((((((                     ((((((    ((           *
+*            ((#    ((((((#                 (((((((    ((            *
+*             ((#    ((((((((             ((((((((    (((            *
+*              (((    (((((((              (((((     ((.             *
+*                ((      (((               (((     #((               *
+*                 /((                            (((                 *
+*                    (((                      &(((                   *
+*                      *((((&             &((((                      *
+*                           ((((((((((((((/                          *
+*                                                                    *
+*    ___  ___      _        ______            _   _                  *
+*    |  \/  |     | |       | ___ \          | | (_)                 *
+*    | .  . |_   _| | ___   | |_/ /   _ _ __ | |_ _ _ __ ___   ___   *
+*    | |\/| | | | | |/ _ \  |    / | | | '_ \| __| | '_ ` _ \ / _ \  *
+*    | |  | | |_| | |  __/  | |\ \ |_| | | | | |_| | | | | | |  __/  *
+*    \_|  |_/\__,_|_|\___|  \_| \_\__,_|_| |_|\__|_|_| |_| |_|\___|  *
+*                                                                    *
+*                                                                    *
+* Mule Runtime and Integration Platform                              *
+* Version: 4.9.1 Build: 0aaa8d2e                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to                                         *
+* https://www.mulesoft.com/platform/soa/mule-esb-enterprise          *
+*                                                                    *
+* Server started: 3/3/25, 1:39 AM                                    *
+* JDK: 17.0.12 (mixed mode)                                          *
+* JDK properties:                                                    *
+*  - java.vendor = Eclipse Adoptium                                  *
+*  - java.vm.name = OpenJDK 64-Bit Server VM                         *
+*  - java.home = /Users/baksoy/.sdkman/candidates/java/17.0.12-tem   *
+* OS: Mac OS X (15.3.1, x86_64)                                      *
+* Host: baksoy-ltmrke8.internal.salesforce.com (192.168.1.160)       *
+* Mule services:                                                     *
+*  - mule-service-soap-1.9.0                                         *
+*  - api-gateway-events-collector-service-1.5.1                      *
+*  - api-gateway-contract-service-1.5.1                              *
+*  - mule-service-weave-ee-2.9.0                                     *
+*  - mule-service-http-ee-1.12.1                                     *
+*  - mule-service-oauth-ee-1.6.1                                     *
+*  - mule-service-scheduler-1.9.1                                    *
+* Mule server plugins:                                               *
+*  - munit-coverage-plugin-3.4.0-mule-server-plugin.jar              *
+* Mule system properties:                                            *
+*  - mule.testingMode =                                              *
+* - mule.home =                                                      *
+* /private/var/folders/hm/kvx0czjn51j7m6r9pw49qjr40000gp/T/munit-tem *
+* p-dir/munitworkingdir15513459224610571191/container                *
+*  - mule.mode.embedded = true                                       *
+**********************************************************************
+2025-03-03 01:39:34,301 [main] INFO  org.mule.munit.remote.container.ContainerSuiteRunDispatcher - Suite will run with MMV 4.4.0
+2025-03-03 01:39:34,343 [Embedded] INFO  org.mule.maven.client.internal.MuleMavenClient - About to fetch required dependencies for artifact: com.mycompany:hello-world:pom:1.0.0. This may take a while...
+2025-03-03 01:39:42,129 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Coverage client connection received from localhost - true
+2025-03-03 01:39:42,130 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Coverage client connection received from localhost - true
+2025-03-03 01:39:42,132 [pool-12-thread-1] INFO  org.mule.munit.remote.coverage.CoverageManager - accumulating covered locations
+2025-03-03 01:39:42,132 [pool-11-thread-1] INFO  org.mule.munit.remote.coverage.CoverageManager - accumulating covered locations
+2025-03-03 01:39:44,237 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Shutting down coverage server
+2025-03-03 01:39:44,237 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Calculating application coverage
+2025-03-03 01:39:44,241 [main] INFO  org.mule.munit.remote.RemoteRunner - Done
+2025-03-03 01:40:36,821 [main] INFO  org.mule.munit.remote.RemoteRunner - Run Started
+2025-03-03 01:40:36,842 [main] INFO  org.mule.munit.remote.notifiers.SocketNotifier - Connected to localhost on port 50282
+2025-03-03 01:40:36,848 [main] INFO  org.mule.munit.remote.RemoteRunner - Mule container is starting, it could take a few minutes
+2025-03-03 01:40:38,784 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Starting coverage server
+2025-03-03 01:40:38,785 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Coverage Server starting...
+2025-03-03 01:40:38,786 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Waiting for coverage client connection in port [50184]...
+2025-03-03 01:40:42,228 [Embedded] INFO  org.mule.runtime.core.internal.logging - 
+**********************************************************************
+*                                                                    *
+*                         (((((((((((((((((((                        *
+*                     (((((                 ((((#                    *
+*                  &(((                        *(((                  *
+*                &(((                             (((                *
+*               (((     (((%               (((#     (((              *
+*              ((     (((((((             (((((((    (((             *
+*             ((     (((((((((           (((((((((     ((            *
+*            ((    #(((((((((((        #(((((((((((    (((           *
+*           #((    ((((((((((((((     ((((((((((((((    ((           *
+*           ((    ((((((  /(((((((   (((((((  /((((((    ((          *
+*           ((    ((((((    (((((((&(((((((    ((((((    ((          *
+*           ((    (((((      ((((((((((((*     ((((((    ((          *
+*           ((    ((((((      *(((((((((       ((((((    ((          *
+*           ((    ((((((        (((((((        ((((((   (((          *
+*            ((    ((((((                     ((((((    ((           *
+*            ((#    ((((((#                 (((((((    ((            *
+*             ((#    ((((((((             ((((((((    (((            *
+*              (((    (((((((              (((((     ((.             *
+*                ((      (((               (((     #((               *
+*                 /((                            (((                 *
+*                    (((                      &(((                   *
+*                      *((((&             &((((                      *
+*                           ((((((((((((((/                          *
+*                                                                    *
+*    ___  ___      _        ______            _   _                  *
+*    |  \/  |     | |       | ___ \          | | (_)                 *
+*    | .  . |_   _| | ___   | |_/ /   _ _ __ | |_ _ _ __ ___   ___   *
+*    | |\/| | | | | |/ _ \  |    / | | | '_ \| __| | '_ ` _ \ / _ \  *
+*    | |  | | |_| | |  __/  | |\ \ |_| | | | | |_| | | | | | |  __/  *
+*    \_|  |_/\__,_|_|\___|  \_| \_\__,_|_| |_|\__|_|_| |_| |_|\___|  *
+*                                                                    *
+*                                                                    *
+* Mule Runtime and Integration Platform                              *
+* Version: 4.9.1 Build: 0aaa8d2e                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to                                         *
+* https://www.mulesoft.com/platform/soa/mule-esb-enterprise          *
+*                                                                    *
+* Server started: 3/3/25, 1:40 AM                                    *
+* JDK: 17.0.12 (mixed mode)                                          *
+* JDK properties:                                                    *
+*  - java.vendor = Eclipse Adoptium                                  *
+*  - java.vm.name = OpenJDK 64-Bit Server VM                         *
+*  - java.home = /Users/baksoy/.sdkman/candidates/java/17.0.12-tem   *
+* OS: Mac OS X (15.3.1, x86_64)                                      *
+* Host: baksoy-ltmrke8.internal.salesforce.com (192.168.1.160)       *
+* Mule services:                                                     *
+*  - mule-service-soap-1.9.0                                         *
+*  - api-gateway-events-collector-service-1.5.1                      *
+*  - api-gateway-contract-service-1.5.1                              *
+*  - mule-service-weave-ee-2.9.0                                     *
+*  - mule-service-http-ee-1.12.1                                     *
+*  - mule-service-oauth-ee-1.6.1                                     *
+*  - mule-service-scheduler-1.9.1                                    *
+* Mule server plugins:                                               *
+*  - munit-coverage-plugin-3.4.0-mule-server-plugin.jar              *
+* Mule system properties:                                            *
+*  - mule.testingMode =                                              *
+* - mule.home =                                                      *
+* /private/var/folders/hm/kvx0czjn51j7m6r9pw49qjr40000gp/T/munit-tem *
+* p-dir/munitworkingdir1606665405553715096/container                 *
+*  - mule.mode.embedded = true                                       *
+**********************************************************************
+2025-03-03 01:40:43,385 [main] INFO  org.mule.munit.remote.container.ContainerSuiteRunDispatcher - Suite will run with MMV 4.4.0
+2025-03-03 01:40:43,424 [Embedded] INFO  org.mule.maven.client.internal.MuleMavenClient - About to fetch required dependencies for artifact: com.mycompany:hello-world:pom:1.0.0. This may take a while...
+2025-03-03 01:40:50,777 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Coverage client connection received from localhost - true
+2025-03-03 01:40:50,779 [pool-4-thread-1] INFO  org.mule.munit.remote.coverage.server.CoverageServer - Coverage client connection received from localhost - true
+2025-03-03 01:40:50,781 [pool-11-thread-1] INFO  org.mule.munit.remote.coverage.CoverageManager - accumulating covered locations
+2025-03-03 01:40:50,781 [pool-12-thread-1] INFO  org.mule.munit.remote.coverage.CoverageManager - accumulating covered locations
+2025-03-03 01:40:52,909 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Shutting down coverage server
+2025-03-03 01:40:52,910 [main] INFO  org.mule.munit.remote.coverage.CoverageManager - Calculating application coverage
+2025-03-03 01:40:52,914 [main] INFO  org.mule.munit.remote.RemoteRunner - Done
